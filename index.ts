@@ -13,9 +13,7 @@ const api = axios.create({
   timeout: 1000,
 });
 
-export async function ShowFilesInDir(
-  path: string = ""
-): Promise<Array<Directory>> {
+export async function ShowFilesInDir(path = ""): Promise<Array<Directory>> {
   const { data } = await api.get(`/filesystem/showUserFiles?dir=${path}`);
   return data;
 }
@@ -28,7 +26,7 @@ export async function OpenFile(path: string) {
 export async function FetchInstalledApplications(): Promise<
   Array<ApplicationMetaDataObject>
 > {
-  const { data } = await api.get(`/root/readRegisteredApplications`);
+  const { data } = await api.get("/root/readRegisteredApplications");
   return data;
 }
 export async function FetchSettings(): Promise<OSSettings> {

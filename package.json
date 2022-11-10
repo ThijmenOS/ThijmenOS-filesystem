@@ -1,22 +1,31 @@
 {
-  "name": "javascriptos-filesystem",
+  "name": "@thijmenos/filesystem",
   "version": "1.0.0",
-  "description": "",
+  "description": "The file system module for the thijmenos client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThijmenOS/ThijmenOS-filesystem.git"
+  },
+  "keywords": [
+    "thijmenos"
+  ],
+  "author": "Thijmen Brand",
   "license": "ISC",
-  "devDependencies": {
-    "@types/jquery": "^3.5.14",
-    "eslint": "^8.27.0",
-    "typescript": "^4.8.4"
+  "bugs": {
+    "url": "https://github.com/ThijmenOS/ThijmenOS-filesystem/issues"
   },
+  "homepage": "https://github.com/ThijmenOS/ThijmenOS-filesystem#readme",
   "dependencies": {
     "@thijmenos/common": "^1.0.0",
     "@thijmenos/eslint-config": "^1.0.0",
-    "axios": "^1.1.3",
-    "jquery": "^3.6.1"
+    "axios": "^1.1.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
   }
 }
