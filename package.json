@@ -1,0 +1,22 @@
+{
+  "name": "javascriptos-filesystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "eslint": "^8.27.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@thijmenos/common": "^1.0.0",
+    "@thijmenos/eslint-config": "^1.0.0",
+    "axios": "^1.1.3",
+    "jquery": "^3.6.1"
+  }
+}
