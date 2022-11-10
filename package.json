@@ -2,9 +2,13 @@
   "name": "@thijmenos/filesystem",
   "version": "1.0.0",
   "description": "The file system module for the thijmenos client",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
     "build": "tsc"
   },
   "repository": {
