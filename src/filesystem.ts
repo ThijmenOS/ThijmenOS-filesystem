@@ -21,8 +21,8 @@ export async function MakeDirectory(props: Mkdir): Promise<string> {
   return data;
 }
 
-export async function CreateFile(props: string): Promise<string> {
-  const { data } = await api.post("/filesystem/makeFIle", props);
+export async function CreateFile(props: Mkdir): Promise<string> {
+  const { data } = await api.post("/filesystem/makeFile", props);
   return data;
 }
 
