@@ -27,7 +27,7 @@
   "dependencies": {
     "@thijmenos/common": "^2.0.3",
     "@thijmenos/eslint-config": "^1.0.0",
-    "axios": "^1.1.3"
+    "axios": "^1.1.0"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
