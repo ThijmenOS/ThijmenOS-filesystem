@@ -26,8 +26,7 @@
   "homepage": "https://github.com/ThijmenOS/ThijmenOS-filesystem#readme",
   "dependencies": {
     "@thijmenos/common": "^2.0.3",
-    "@thijmenos/eslint-config": "^1.0.0",
-    "axios": "^1.1.0"
+    "@thijmenos/eslint-config": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
