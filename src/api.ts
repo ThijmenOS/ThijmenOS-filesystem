@@ -16,17 +16,13 @@ class Api {
     return await response.json();
   }
 
-  public async post(url: string, data: object | string) {
-    console.log(data);
-    console.log(typeof data);
-    const body = typeof data === "string" ? data : JSON.stringify(data);
-    console.log(body);
+  public async post(url: string, data: object) {
     const response = await fetch(this._baseURL + url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: body,
+      body: JSON.stringify(data),
     });
 
     return response.json();
