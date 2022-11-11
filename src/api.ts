@@ -11,13 +11,13 @@ class Api {
   }
 
   public async get(url: string) {
-    const response = await fetch(url);
+    const response = await fetch(this._baseURL + url);
 
     return await response.json();
   }
 
   public async post(url: string, data: object | string) {
-    const response = await fetch(url, {
+    const response = await fetch(this._baseURL + url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
