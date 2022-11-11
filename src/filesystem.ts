@@ -1,5 +1,5 @@
 import api from "./api";
-import { Mkdir, Directory, Path } from "@thijmenos/common/types";
+import { Mkdir, Directory, Path } from "@thijmenos/common";
 
 export async function ShowFilesInDir(path = ""): Promise<Array<Directory>> {
   const { data } = await api.get(`/filesystem/showUserFiles?dir=${path}`);

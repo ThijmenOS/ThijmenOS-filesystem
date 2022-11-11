@@ -1,8 +1,8 @@
 import axios from "axios";
-import { config } from "@thijmenos/common/config";
+import { host } from "@thijmenos/common";
 
 const api = axios.create({
-  baseURL: config.host,
+  baseURL: host,
   timeout: 1000,
 });
 
