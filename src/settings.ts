@@ -1,5 +1,5 @@
 import api from "./api";
-import { ApplicationMetaDataObject, OSSettings } from "@thijmenos/common";
+import { ApplicationMetaDataObject, OSSettings } from "@thijmen-os/common";
 
 export async function FetchInstalledApplications(): Promise<
   Array<ApplicationMetaDataObject>

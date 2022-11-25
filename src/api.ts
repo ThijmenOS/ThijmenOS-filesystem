@@ -1,6 +1,6 @@
 //TODO: Implement error handling
 
-import { host } from "@thijmenos/common";
+import { host } from "@thijmen-os/common";
 
 interface ApiOptions {
   baseURL: string;
