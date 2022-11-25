@@ -1,3 +1,5 @@
+//TODO: Implement error handling
+
 import { host } from "@thijmenos/common";
 
 interface ApiOptions {
